@@ -26,9 +26,9 @@ const translations: Record<Locale, Translations> = {
     about: {
       label: "About",
       title: "Building AI products that solve real problems in Central Asia.",
-      p1: "I'm a Computer Science student at Inha University in Tashkent, graduating May 2026. As CEO of SIA, I lead a team building medical AI that helps doctors analyse MRI, CT and X-ray scans with 88.4% recall accuracy.",
+      p1: "I'm a Computer Science student at Inha University in Tashkent, graduating May 2026. As CEO of SIA, I lead a team building medical AI that helps doctors analyse MRI, CT and X-ray scans with high recall and precision.",
       p2: "As founder of SIGN Tech, I've built Uzbekistan's first AI investment intelligence platform, an AI startup valuation tool, and an educational bot used by school students nationwide.",
-      stat1Label: "Recall Accuracy",
+      stat1Label: "AI Performance",
       stat2Label: "AI Products Shipped",
       stat3Label: "ByteBridge Hackathon",
       stat4Label: "Clinical AI Modules",
@@ -41,12 +41,12 @@ const translations: Record<Locale, Translations> = {
       sia: {
         title: "SIA Medical AI",
         role: "CEO & Founder",
-        desc: "Medical AI platform for radiology, cardiology, anaesthesia, and neonatology. Analyses MRI, CT, and X-ray scans with 88.4% recall accuracy in under 3 seconds.",
+        desc: "Medical AI platform for radiology, cardiology, anaesthesia, and neonatology. Analyses MRI, CT, and X-ray scans with high precision in under 3 seconds.",
       },
       sign: {
         title: "SIGN Investment Intelligence",
         role: "Founder",
-        desc: "First AI investment index for Uzbekistan. Trained on 4,000+ YC startups with 78.9% accuracy for startup success prediction.",
+        desc: "First AI investment index for Uzbekistan. Trained on 4,000+ YC startups with industry-leading predictive models for startup success.",
       },
       signtake: {
         title: "SignTake",
@@ -63,7 +63,7 @@ const translations: Record<Locale, Translations> = {
       label: "Experience",
       title: "Where I've Worked",
       roles: {
-        r1: { role: "CEO & Founder", company: "SIA Medical AI", period: "2025 – Present", desc: "Leading a team building medical AI for radiology, cardiology, anaesthesia, and neonatology. Platform serves healthcare professionals with 88.4% recall accuracy." },
+        r1: { role: "CEO & Founder", company: "SIA Medical AI", period: "2025 – Present", desc: "Leading a team building medical AI for radiology, cardiology, anaesthesia, and neonatology. Platform serves healthcare professionals with high-performance diagnostic modules." },
         r2: { role: "Founder", company: "SIGN Tech Team", period: "2023 – Present", desc: "Built Uzbekistan's first AI investment intelligence platform, a startup valuation tool, and an educational chatbot serving thousands of students." },
         r3: { role: "Software Engineer", company: "NeuesLeben.uz", period: "Jan 2025 – Present", desc: "Architecting production-grade web applications using Next.js, TypeScript, and server-side architectures for a scaling digital platform." },
         r4: { role: "Front-End Intern", company: "Kreativstorm", period: "Feb – Mar 2024", desc: "Built modular React components and gained experience in modern frontend workflows, state management, and application architecture." },
@@ -115,9 +115,9 @@ const translations: Record<Locale, Translations> = {
     about: {
       label: "Обо мне",
       title: "Создаю AI-продукты, решающие реальные проблемы в Центральной Азии.",
-      p1: "Я студент факультета Computer Science в Университете Инха в Ташкенте, выпуск — май 2026. Как CEO SIA, руковожу командой, создающей медицинский ИИ для анализа МРТ, КТ и рентген-снимков с точностью 88.4%.",
+      p1: "Я студент факультета Computer Science в Университете Инха в Ташкенте, выпуск — май 2026. Как CEO SIA, руковожу командой, создающей медицинский ИИ для анализа МРТ, КТ и рентген-снимков с высокой точностью.",
       p2: "Как основатель SIGN Tech, создал первую в Узбекистане ИИ-платформу инвестиционной аналитики, инструмент оценки стартапов и образовательного бота для школьников по всей стране.",
-      stat1Label: "Точность модели",
+      stat1Label: "Производительность ИИ",
       stat2Label: "ИИ-продуктов",
       stat3Label: "ByteBridge Хакатон",
       stat4Label: "Клинических модулей",
@@ -130,12 +130,12 @@ const translations: Record<Locale, Translations> = {
       sia: {
         title: "SIA Medical AI",
         role: "CEO и Основатель",
-        desc: "Медицинская ИИ-платформа для радиологии, кардиологии, анестезиологии и неонатологии. Анализирует МРТ, КТ и рентген-снимки с точностью 88.4% менее чем за 3 секунды.",
+        desc: "Медицинская ИИ-платформа для радиологии, кардиологии, анестезиологии и неонатологии. Анализирует МРТ, КТ и рентген-снимки с высокой точностью менее чем за 3 секунды.",
       },
       sign: {
         title: "SIGN Investment Intelligence",
         role: "Основатель",
-        desc: "Первый ИИ-индекс для инвестиций в Узбекистане. Обучен на 4,000+ стартапах YC с точностью 78.9%.",
+        desc: "Первый ИИ-индекс для инвестиций в Узбекистане. Обучен на 4,000+ стартапах YC с использованием передовых предиктивных моделей.",
       },
       signtake: {
         title: "SignTake",
@@ -152,7 +152,7 @@ const translations: Record<Locale, Translations> = {
       label: "Опыт",
       title: "Где я работал",
       roles: {
-        r1: { role: "CEO и Основатель", company: "SIA Medical AI", period: "2025 – н.в.", desc: "Руковожу командой, создающей медицинский ИИ для радиологии, кардиологии, анестезиологии и неонатологии. Точность модели — 88.4%." },
+        r1: { role: "CEO и Основатель", company: "SIA Medical AI", period: "2025 – н.в.", desc: "Руковожу командой, создающей медицинский ИИ для радиологии, кардиологии, анестезиологии и неонатологии с высокой диагностической надежностью." },
         r2: { role: "Основатель", company: "SIGN Tech Team", period: "2023 – н.в.", desc: "Создал первую ИИ-платформу инвестиционной аналитики в Узбекистане, инструмент оценки стартапов и образовательного чат-бота." },
         r3: { role: "Инженер-программист", company: "NeuesLeben.uz", period: "Январь 2025 – н.в.", desc: "Проектирую веб-приложения продакшн-уровня на Next.js, TypeScript и серверных архитектурах." },
         r4: { role: "Стажёр Front-End", company: "Kreativstorm", period: "Фев – Март 2024", desc: "Разрабатывал модульные React-компоненты, изучал современные фронтенд-практики и управление состоянием." },
@@ -204,9 +204,9 @@ const translations: Record<Locale, Translations> = {
     about: {
       label: "Men haqimda",
       title: "Markaziy Osiyoda haqiqiy muammolarni hal qiluvchi AI mahsulotlar yarataman.",
-      p1: "Men Toshkentdagi Inha universitetida Computer Science talabasi bo'lib, 2026-yil may oyida bitiraman. SIA bosh direktori sifatida MRT, KT va rentgen tahlili uchun 88.4% aniqlikka ega tibbiy AI yaratayotgan jamoaga rahbarlik qilaman.",
+      p1: "Men Toshkentdagi Inha universitetida Computer Science talabasi bo'lib, 2026-yil may oyida bitiraman. SIA bosh direktori sifatida MRT, KT va rentgen tahlili uchun yuqori aniqlikdagi tibbiy AI yaratayotgan jamoaga rahbarlik qilaman.",
       p2: "SIGN Tech asoschisi sifatida O'zbekistondagi birinchi AI investitsiya tahlili platformasini, startap baholash vositasini va butun mamlakat bo'ylab o'quvchilar foydalanayotgan ta'limiy botni yaratdim.",
-      stat1Label: "Model aniqligi",
+      stat1Label: "AI Samaradorligi",
       stat2Label: "AI Mahsulotlar",
       stat3Label: "ByteBridge Xakaton",
       stat4Label: "Klinik AI Modullari",
@@ -219,12 +219,12 @@ const translations: Record<Locale, Translations> = {
       sia: {
         title: "SIA Medical AI",
         role: "Bosh direktor va Asoschisi",
-        desc: "Radiologiya, kardiologiya, anesteziologiya va neonatologiya uchun tibbiy AI platforma. MRT, KT va rentgen tahlilini 88.4% aniqlik bilan 3 soniyadan kamroq vaqtda amalga oshiradi.",
+        desc: "Radiologiya, kardiologiya, anesteziologiya va neonatologiya uchun tibbiy AI platforma. MRT, KT va rentgen tahlilini yuqori aniqlik bilan 3 soniyadan kamroq vaqtda amalga oshiradi.",
       },
       sign: {
         title: "SIGN Investment Intelligence",
         role: "Asoschisi",
-        desc: "O'zbekistondagi birinchi AI investitsiya indeksi. 4,000+ YC startaplari asosida o'qitilgan, 78.9% aniqlik.",
+        desc: "O'zbekistondagi birinchi AI investitsiya indeksi. 4,000+ YC startaplari asosida o'qitilgan ilg'or bashoratli modellar.",
       },
       signtake: {
         title: "SignTake",
@@ -241,7 +241,7 @@ const translations: Record<Locale, Translations> = {
       label: "Tajriba",
       title: "Qayerda ishlaganman",
       roles: {
-        r1: { role: "Bosh direktor va Asoschisi", company: "SIA Medical AI", period: "2025 – hozir", desc: "Radiologiya, kardiologiya, anesteziologiya va neonatologiya uchun tibbiy AI yaratuvchi jamoaga rahbarlik. Model aniqligi — 88.4%." },
+        r1: { role: "Bosh direktor va Asoschisi", company: "SIA Medical AI", period: "2025 – hozir", desc: "Radiologiya, kardiologiya, anesteziologiya va neonatologiya uchun yuqori samarali tibbiy AI yaratuvchi jamoaga rahbarlik." },
         r2: { role: "Asoschisi", company: "SIGN Tech Team", period: "2023 – hozir", desc: "O'zbekistondagi birinchi AI investitsiya tahlili platformasi, startap baholash vositasi va ta'limiy chatbotni yaratdim." },
         r3: { role: "Dasturchi muhandis", company: "NeuesLeben.uz", period: "2025-yil yanvar – hozir", desc: "Next.js, TypeScript va server arxitekturalari yordamida ishlab chiqarishga tayyor veb-ilovalar loyihalashtirish." },
         r4: { role: "Front-End stajyor", company: "Kreativstorm", period: "2024-yil fev – mart", desc: "Modulli React komponentlar yaratish, zamonaviy frontend amaliyotlari va holat boshqaruvi bo'yicha tajriba orttirildi." },

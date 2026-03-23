@@ -55,7 +55,7 @@ export default function About() {
 
           <div className="grid grid-cols-2 gap-6">
             {[
-              { value: "88.4%", label: t("about", "stat1Label") },
+              { value: "SOTA", label: t("about", "stat1Label") },
               { value: "5+", label: t("about", "stat2Label") },
               { value: "1st", label: t("about", "stat3Label") },
               { value: "4", label: t("about", "stat4Label") },
